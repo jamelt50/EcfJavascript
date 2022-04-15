@@ -1,0 +1,15 @@
+<header class="flex justify-between items-center px-4 py-2 bg-slate-500">
+  <div class="icon text-2xl">Booksy !</div>
+  <nav class="flex">
+    <li
+      class="p-2 list-none hover:underline <%= page === '/'?'underline':'' %>"
+    >
+      <a href="/">home</a>
+    </li>
+    <li
+      class="p-2 list-none hover:underline <%= page === '/books'?'underline':'' %>"
+    >
+      <a href="/books">books</a>
+    </li>
+  </nav>
+</header>

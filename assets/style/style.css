@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backdrop{
+background-color: rgba(0, 0, 0,0.7);
+backdrop-filter: blur(8px);
+}
+
+
+.book-depop{
+
+animation: depop 0.4s ease-in-out;
+}
+@keyframes depop {
+
+0%{
+transform: scale(1);
+opacity: 1;
+}
+100%{
+transform: scale(0.7);
+opacity: 0;
+}
+    
+}
+.book-pop{
+
+animation: pop 0.4s ease-in-out;
+}
+@keyframes pop {
+
+0%{
+transform: scale(0.7);
+opacity: 0;
+}
+100%{
+transform: scale(1);
+opacity: 1;
+}
+    
+}

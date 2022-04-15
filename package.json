@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.2.9"
+  },
+  "scripts": {
+    "serve": "nodemon ./app.js ",
+    "tailwind-watch": "npx tailwindcss -i ./assets/style/style.css -o ./public/style/style.css --watch"
+
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
